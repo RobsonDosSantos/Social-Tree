@@ -1,0 +1,85 @@
+/* Cores */
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+/* Reset do CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-bg-color);
+}
+
+.conteiner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner > div > img {
+  margin-top: 50px;
+  border-radius: 50%;
+  box-shadow: 
+  0 0 0 4px rgb(255, 255, 255),
+  0 0 0 6px var(--purple);
+}
+
+p {
+  text-align: center;
+  color: var(--purple);
+  margin: 15px 0 20px 0;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+ul li {
+  width: 326px;
+  height: 49px;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+ul li img {
+  width: 35px;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+.icones-social a img {
+  margin: 30px 20px 0 0;
+}
+
+/* Media Queries*/
+
+@media (max-width: 425px) {
+  .conteiner > div > img {
+    margin-top: 150px;
+  }
+
+  .icones-social a img {
+    margin: 30px 20px 30px 0;
+  }
+}
