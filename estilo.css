@@ -75,9 +75,6 @@ ul li a{
 /* Media Queries*/
 
 @media (max-width: 425px) {
-  .conteiner > div > img {
-    margin-top: 80px;
-  }
 
   .icones-social a img {
     margin: 30px 20px 30px 0;
