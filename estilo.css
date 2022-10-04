@@ -76,7 +76,7 @@ ul li a{
 
 @media (max-width: 425px) {
   .conteiner > div > img {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .icones-social a img {
